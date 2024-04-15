@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    color: green;
+}
+
+h4{
+    color: gray;
+}
+
+h5{
+    color: red;
+}
+
+h6{
+    color: blue;
+}

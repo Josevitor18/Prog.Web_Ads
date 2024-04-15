@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Cartão</title>
+</head>
+<body>
+    <form>
+        <table border="1" cellpadding="5" align="center">
+            <tr>
+                <td><strong>Número:</strong></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><strong>Bandeira:</strong></td>
+                <td>
+                    <input type="radio" name="bandeira" value="visa"> <img src="/imagens_pizza/visa.jpg"> <br>
+                    <input type="radio" name="bandeira" value="master"> <img src="/imagens_pizza/master.jpg"> <br>
+                    <input type="radio" name="bandeira" value="american"> <img src="/imagens_pizza/american.jpg"> <br>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Validade:</strong></td>
+                <td>
+                    <select>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <h2 align="center">
+            <input type="submit" name="btn_enviar" value="Enviar">
+        </h2>
+    </form>
+
+</body>
+</html>
