@@ -1,0 +1,32 @@
+
+
+h4, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007e7e;
+}
+
+hr{
+    border-color: #007e7e;
+}
+
+#cha{
+    color: green;
+}
+
+#suco{
+    color: blue;
+}
+
+#elixir{
+    color: purple;
+}
+
+#anti{
+    color: maroon;
+}
+
+#fim{
+    color: gray;
+    text-align: center;
+}
+
